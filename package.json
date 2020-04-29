@@ -1,0 +1,21 @@
+{
+  "name": "project-oc-3",
+  "version": "1.0.0",
+  "description": "Oh my food",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johneyme/Project-OC-3.git"
+  },
+  "author": "johneyme",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/johneyme/Project-OC-3/issues"
+  },
+  "homepage": "https://github.com/johneyme/Project-OC-3#readme"
+}
