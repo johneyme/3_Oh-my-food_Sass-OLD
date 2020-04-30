@@ -1,6 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+.bloc_page {
+  width: 600px;
+  margin: auto;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #fdcb46;
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 1.7;
+}
+
+.haut-page__titre {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+textarea {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.75rem;
+}
+
+.pied-page {
+  font-size: 1.5rem;
+}
+
 .button {
-  border: solid black 2px;
-  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+.button .button__prochainement {
+  width: 300px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 8px;
+  background-color: #579c87;
+  text-decoration: none;
+  color: #fdcb46;
+}
+
+.haut-page {
+  background-color: #579c87;
+  margin-bottom: 30px;
+}
+.haut-page__titre {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container__menu {
+  padding-top: 80px;
+  text-align: center;
+  width: 250px;
+  height: 300px;
+  margin: 20px;
+  box-shadow: 5px 5px 20px #ededed;
+}
+.container__menu a {
+  text-decoration: none;
+}
+.container__menu--1 {
+  background-color: #fcdfdb;
+  font-family: "Indie Flower", cursive;
+}
+.container__menu--1 p {
+  color: black;
+}
+.container__menu--2 {
+  background-color: #fff5fe;
+  font-family: "Amiri", serif;
+}
+.container__menu--2 p {
+  background: -webkit-linear-gradient(#ec8d1f, #5a01ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container__menu--3 {
+  background-color: #f9f9f9;
+  font-family: "Italianno", cursive;
+}
+.container__menu--3 p {
+  background: -webkit-linear-gradient(#0004ff, #297cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container__menu--4 {
+  background-color: #fdfffd;
+  font-family: "Caveat", cursive;
+}
+.container__menu--4 p {
+  background: -webkit-linear-gradient(#46dd00, #96dfac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo__menu {
+  width: 45px;
+  height: 45px;
+}
+
+.pied-page {
+  background-color: #579c87;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+.pied-page__mentions, .pied-page__contact {
+  text-decoration: none;
+  color: #fdcb46;
 }
 
 /*# sourceMappingURL=style.css.map */

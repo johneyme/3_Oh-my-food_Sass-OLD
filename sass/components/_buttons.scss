@@ -1,4 +1,11 @@
-.button
-{
-    @include button-prochainement
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    
+        .button__prochainement
+        {
+            @include button
+    }
 }

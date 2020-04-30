@@ -1,0 +1,11 @@
+.pied-page {
+    background-color: $colour-primary;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    &__mentions,
+    &__contact {
+        text-decoration: none;
+        color: $colour-secondary;
+    }
+}
