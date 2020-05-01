@@ -1,4 +1,7 @@
 .pied-page {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    width: 600px;
+    margin: auto;
     background-color: $colour-primary;
     display: flex;
     justify-content: space-between;

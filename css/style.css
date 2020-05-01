@@ -77,10 +77,30 @@ button {
   font-size: 20px;
   text-align: center;
   color: black;
-  width: 500px;
+}
+.container__menu__carte img {
+  max-width: 80%;
+  max-height: 80%;
+  box-shadow: 5px 5px 20px #ededed;
+  margin-bottom: 30px;
+}
+
+.mentions-legales {
+  color: black;
+  font-size: 12px;
+  text-align: justify;
+}
+.mentions-legales h1 {
+  text-align: center;
 }
 
 .pied-page {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 600px;
+  margin: auto;
   background-color: #579c87;
   display: flex;
   justify-content: space-between;
