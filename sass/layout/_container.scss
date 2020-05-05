@@ -3,17 +3,50 @@
     flex-wrap: wrap;
     justify-content: space-around;
     &__menu {
+        overflow: hidden;
+        position: relative;
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        & img {
+            max-width: 100%;
+            transition: all 0.8s;
+        }
         @include menu;
         &__carte {
             @include menu-carte;
         }
-        }
     }
-.mentions-legales  {
+}
+.mentions-legales {
     color: black;
     font-size: 12px;
     text-align: justify;
-    & h1{
+    & h1 {
         text-align: center;
+    }
+}
+
+.container__menu--1:hover {
+    & img {
+        transform: scale(1.06);
+    }
+}
+
+.container__menu--2:hover {
+    & img {
+        transform: scale(1.06);
+    }
+}
+.container__menu--3:hover {
+    & img {
+        transform: scale(1.06);
+    }
+}
+.container__menu--4:hover {
+    & img {
+        transform: scale(1.06);
     }
 }
