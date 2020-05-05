@@ -3,9 +3,20 @@
     align-items: center;
     justify-content: center;
     margin: 40px;
+    margin-bottom: 100px;
     
         .button__prochainement
         {
             @include button
-    }
+        }
+    .dot1 {
+        animation: visibility 3s linear infinite;
+       }
+    .dot2 {
+        animation: visibility2 3s linear infinite;
+       }
+    .dot3 {
+        animation: visibility3 3s linear infinite;
+       }
+    
 }

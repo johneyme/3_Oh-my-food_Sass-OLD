@@ -6,9 +6,12 @@
     display: flex;
     justify-content: space-between;
     padding: 12px;
-    &__mentions,
-    &__contact {
+    &__content {
         text-decoration: none;
         color: $colour-secondary;
+        &:hover{
+        animation: shake 0.5s;
+        animation-iteration-count: infinite;
+        }
     }
 }
