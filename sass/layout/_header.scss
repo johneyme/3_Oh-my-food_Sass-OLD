@@ -1,8 +1,13 @@
 .haut-page {
+    
     padding: 20px;
     background-color: $colour-primary;
     margin-bottom: 30px;
     &__titre {
         text-align: center;
+    }
+    & a{
+        text-decoration: none;
+        color: $colour-secondary;
     }
 }

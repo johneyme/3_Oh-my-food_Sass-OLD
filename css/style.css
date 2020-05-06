@@ -162,6 +162,10 @@ button {
 .haut-page__titre {
   text-align: center;
 }
+.haut-page a {
+  text-decoration: none;
+  color: #fdcb46;
+}
 
 .container {
   display: flex;
