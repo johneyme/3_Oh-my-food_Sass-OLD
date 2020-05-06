@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=Dancing+Script&family=Devonshire&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 
 body {
@@ -8,7 +10,7 @@ body {
     font-weight: 100;
     line-height: 1.7;
 }
-.haut-page__titre{
+.haut-page__titre h1{
     font-size: 2rem;
     font-weight: bold;
 }
@@ -27,3 +29,38 @@ button {
 .pied-page {
     font-size: 1.5rem;
 }
+.container__menu{
+    &--1 {
+        font-family: 'Devonshire', cursive;
+        font-size: 1rem;
+        
+        & h3{
+            font-family: 'Caveat', cursive;
+        }
+        
+    }
+    &--2 {
+        font-family: 'Croissant One', cursive;
+        font-size: 1rem;
+        & h3{
+            font-family: 'Roboto Slab', serif;
+        }
+    }
+    &--3{
+            font-family: 'Dancing Script', cursive;
+            font-size: 1rem;
+            & h3{
+                font-family: 'Caveat', cursive;
+            }
+        }
+    &--4{
+            font-family: 'Kaushan Script', cursive;
+            font-size: 1rem;
+            & h3{
+                font-family: 'Caveat', cursive;
+            }
+        }
+    }
+    
+
+

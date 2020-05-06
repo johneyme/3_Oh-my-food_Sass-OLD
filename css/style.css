@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Italianno&family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=Dancing+Script&family=Devonshire&family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
@@ -105,7 +107,7 @@ body {
   line-height: 1.7;
 }
 
-.haut-page__titre {
+.haut-page__titre h1 {
   font-size: 2rem;
   font-weight: bold;
 }
@@ -125,6 +127,35 @@ button {
 
 .pied-page {
   font-size: 1.5rem;
+}
+
+.container__menu--1 {
+  font-family: "Devonshire", cursive;
+  font-size: 1rem;
+}
+.container__menu--1 h3 {
+  font-family: "Caveat", cursive;
+}
+.container__menu--2 {
+  font-family: "Croissant One", cursive;
+  font-size: 1rem;
+}
+.container__menu--2 h3 {
+  font-family: "Roboto Slab", serif;
+}
+.container__menu--3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 1rem;
+}
+.container__menu--3 h3 {
+  font-family: "Caveat", cursive;
+}
+.container__menu--4 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1rem;
+}
+.container__menu--4 h3 {
+  font-family: "Caveat", cursive;
 }
 
 .button {
@@ -169,18 +200,7 @@ button {
   justify-content: space-around;
 }
 .container__menu {
-  overflow: hidden;
-  position: relative;
   width: 250px;
-}
-.container__menu * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-.container__menu img {
-  max-width: 100%;
-  transition: all 0.8s;
 }
 .container__menu img {
   max-width: 100%;
@@ -206,22 +226,6 @@ button {
 }
 .mentions-legales h1 {
   text-align: center;
-}
-
-.container__menu--1:hover img {
-  transform: scale(1.06);
-}
-
-.container__menu--2:hover img {
-  transform: scale(1.06);
-}
-
-.container__menu--3:hover img {
-  transform: scale(1.06);
-}
-
-.container__menu--4:hover img {
-  transform: scale(1.06);
 }
 
 .pied-page {
