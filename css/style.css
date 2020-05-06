@@ -95,11 +95,11 @@
   }
 }
 .bloc_page {
-  width: 600px;
+  width: 700px;
   margin: auto;
 }
 
-body {
+.pied-page {
   font-family: "Raleway", sans-serif;
   color: #fdcb46;
   font-size: 2rem;
@@ -107,15 +107,11 @@ body {
   line-height: 1.7;
 }
 
-.haut-page__titre h1 {
+.haut-page__titre a, h1 {
   font-size: 2rem;
   font-weight: bold;
-}
-
-textarea {
-  font-family: "Raleway", sans-serif;
-  font-weight: 100;
-  font-size: 2rem;
+  text-decoration: none;
+  color: #fdcb46;
 }
 
 button {
@@ -129,33 +125,43 @@ button {
   font-size: 1.5rem;
 }
 
-.container__menu--1 {
+.container__menu--1 p {
   font-family: "Devonshire", cursive;
-  font-size: 1rem;
+  font-size: 2rem;
 }
-.container__menu--1 h3 {
+.container__menu--1 p span {
   font-family: "Caveat", cursive;
+  font-size: 2rem;
 }
-.container__menu--2 {
+.container__menu--2 p {
   font-family: "Croissant One", cursive;
   font-size: 1rem;
 }
-.container__menu--2 h3 {
+.container__menu--2 p span {
   font-family: "Roboto Slab", serif;
+  font-size: 2rem;
 }
-.container__menu--3 {
+.container__menu--3 p {
   font-family: "Dancing Script", cursive;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
-.container__menu--3 h3 {
+.container__menu--3 p span {
   font-family: "Caveat", cursive;
+  font-size: 2rem;
 }
-.container__menu--4 {
+.container__menu--4 p {
   font-family: "Kaushan Script", cursive;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
-.container__menu--4 h3 {
+.container__menu--4 p span {
   font-family: "Caveat", cursive;
+  font-size: 2rem;
+}
+
+.mention {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 .button {
@@ -201,22 +207,51 @@ button {
 }
 .container__menu {
   width: 250px;
-}
-.container__menu img {
-  max-width: 100%;
-  max-height: 100%;
-  box-shadow: 5px 5px 20px #ededed;
-}
-.container__menu__carte {
-  font-size: 20px;
   text-align: center;
-  color: black;
+  height: 350px;
+  margin: 15px;
+  box-shadow: 2px 2px 10px gray;
 }
-.container__menu__carte img {
-  max-width: 80%;
-  max-height: 80%;
-  box-shadow: 5px 5px 20px #ededed;
-  margin-bottom: 100px;
+.container__menu p {
+  margin-top: 50%;
+}
+.container__menu a {
+  text-decoration: none;
+}
+.container__menu--1 {
+  background-color: #fcdfdb;
+  font-family: "Indie Flower", cursive;
+}
+.container__menu--1 p {
+  color: black;
+  margin-top: 25%;
+}
+.container__menu--2 {
+  background-color: #fff5fe;
+  font-family: "Amiri", serif;
+}
+.container__menu--2 p {
+  background: -webkit-linear-gradient(#ec8d1f, #5a01ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container__menu--3 {
+  background-color: #f9f9f9;
+  font-family: "Italianno", cursive;
+}
+.container__menu--3 p {
+  background: -webkit-linear-gradient(#0004ff, #297cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container__menu--4 {
+  background-color: #fdfffd;
+  font-family: "Caveat", cursive;
+}
+.container__menu--4 p {
+  background: -webkit-linear-gradient(#46dd00, #96dfac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .mentions-legales {
@@ -228,12 +263,18 @@ button {
   text-align: center;
 }
 
+.fas {
+  background: -webkit-linear-gradient(#f55442, #f5aa42);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .pied-page {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  width: 600px;
+  width: 700px;
   margin: auto;
   background-color: #579c87;
   display: flex;

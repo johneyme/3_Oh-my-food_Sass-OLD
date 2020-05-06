@@ -3,21 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 
-body {
+.pied-page {
     font-family: 'Raleway', sans-serif;
     color: $colour-secondary;
     font-size: 2rem;
     font-weight: 100;
     line-height: 1.7;
 }
-.haut-page__titre h1{
+.haut-page__titre a, h1{
     font-size: 2rem;
     font-weight: bold;
-}
-textarea {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 100;
-    font-size: 2rem;
+    text-decoration: none;
+    color: $colour-secondary;
 }
 
 button {
@@ -30,37 +27,45 @@ button {
     font-size: 1.5rem;
 }
 .container__menu{
-    &--1 {
+    &--1 p{
         font-family: 'Devonshire', cursive;
-        font-size: 1rem;
+        font-size: 2rem;
         
-        & h3{
+        & span{
             font-family: 'Caveat', cursive;
+            font-size: 2rem;
         }
         
     }
-    &--2 {
+    &--2 p{
         font-family: 'Croissant One', cursive;
         font-size: 1rem;
-        & h3{
+        & span{
             font-family: 'Roboto Slab', serif;
+            font-size: 2rem;
         }
     }
-    &--3{
+    &--3 p{
             font-family: 'Dancing Script', cursive;
-            font-size: 1rem;
-            & h3{
+            font-size: 1.5rem;
+            & span{
                 font-family: 'Caveat', cursive;
+                font-size: 2rem;
             }
         }
-    &--4{
+    &--4 p{
             font-family: 'Kaushan Script', cursive;
-            font-size: 1rem;
-            & h3{
+            font-size: 1.5rem;
+            & span{
                 font-family: 'Caveat', cursive;
+                font-size: 2rem;
             }
         }
     }
-    
+.mention{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+} 
 
 

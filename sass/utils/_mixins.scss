@@ -10,33 +10,10 @@
         color: $colour-secondary;
         
 }
-// a supprimer
-
-@mixin image-index{
-img{
-        max-width: 100%;
-        max-height: 100%;
-        box-shadow: 5px 5px 20px #ededed;
-    }
-}
-@mixin image-menu{
-        img{
-                max-width: 80%;
-                max-height: 80%;
-                box-shadow: 5px 5px 20px #ededed;
-                margin-bottom: 100px;
-            }
-        }
-
 @mixin menu {
         width: 250px;
-        
-        @include image-index
-}
-
-@mixin menu-carte {
-        font-size: 20px;
         text-align: center;
-        color: black;
-        @include image-menu;
-        }
+        height: 350px;
+        margin: 15px;
+        box-shadow: 2px 2px 10px gray;
+}

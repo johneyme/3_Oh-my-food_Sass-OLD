@@ -2,10 +2,51 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    // attention webkit n'est pas conforme aux regle w3c
     &__menu {
-      @include menu;
-        &__carte {
-            @include menu-carte;
+        @include menu;
+        & p{
+            margin-top: 50%;
+        }
+        & a {
+            text-decoration: none;
+            
+        }
+        &--1 {
+            background-color: #fcdfdb;
+            font-family: "Indie Flower", cursive;
+
+            & p {
+                color: black;
+                margin-top: 25%
+            }
+        }
+        &--2 {
+            background-color: #fff5fe;
+            font-family: "Amiri", serif;
+            & p {
+                background: -webkit-linear-gradient(rgb(236, 141, 31), rgb(90, 1, 255));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+        &--3 {
+            background-color: #f9f9f9;
+            font-family: "Italianno", cursive;
+            & p {
+                background: -webkit-linear-gradient(rgb(0, 4, 255), rgb(41, 124, 248));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+        &--4 {
+            background-color: #fdfffd;
+            font-family: "Caveat", cursive;
+            & p {
+                background: -webkit-linear-gradient(rgb(70, 221, 0), rgb(150, 223, 172));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+}
         }
     }
 }
@@ -16,4 +57,10 @@
     & h1 {
         text-align: center;
     }
+}
+.fas {
+   
+    background: -webkit-linear-gradient(rgb(245, 84, 66), rgb(245, 170, 66));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
 }
