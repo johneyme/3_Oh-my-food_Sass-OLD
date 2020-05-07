@@ -114,11 +114,11 @@
   color: #fdcb46;
 }
 
-button {
+.button {
   font-family: "Raleway", sans-serif;
   font-weight: 900;
   font-style: italic;
-  font-size: 2.75rem;
+  font-size: 2rem;
 }
 
 .pied-page {
@@ -267,6 +267,32 @@ button {
   background: -webkit-linear-gradient(#f55442, #f5aa42);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.container__restaurant {
+  width: 600px;
+  height: 700px;
+  margin-bottom: 150px;
+}
+.container__restaurant li span {
+  background-color: green;
+  text-align: right;
+}
+.container__restaurant--1 {
+  box-shadow: 2px 2px 10px;
+  background-color: #fcdfdb;
+}
+.container__restaurant--2 {
+  box-shadow: 2px 2px 10px;
+  background-color: #fff5fe;
+}
+.container__restaurant--3 {
+  box-shadow: 2px 2px 10px;
+  background-color: #edefef;
+}
+.container__restaurant--4 {
+  box-shadow: 2px 2px 10px;
+  background-color: #fdfffd;
 }
 
 .pied-page {
