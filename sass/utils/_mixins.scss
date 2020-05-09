@@ -17,3 +17,33 @@
         margin: 15px;
         box-shadow: 2px 2px 10px gray;
 }
+@mixin effetzoom{
+                &__menu {
+                    overflow: hidden;
+                    position: relative;
+                    * {
+                        box-sizing: border-box;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    & p {
+                        max-width: 100%;
+                        transition: all 0.8s;
+                    }
+                    &:hover {
+                            & p {
+                                transform: scale(1.30);
+                            }
+                        }
+                    }
+                }
+ @mixin gradient-note{
+                        background: #7f00ff;
+                        background: -moz-linear-gradient(left,  #7f00ff 0%, #c700ff 100%);
+                        background: -webkit-linear-gradient(left,  #7f00ff 0%,#c700ff 100%);
+                        background: linear-gradient(to right,  #7f00ff 0%,#c700ff 100%);
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7f00ff', endColorstr='#c700ff',GradientType=1 );
+                        -webkit-text-fill-color:transparent;
+                        -webkit-background-clip:text;
+                    }
+                    

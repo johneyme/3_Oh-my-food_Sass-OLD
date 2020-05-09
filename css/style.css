@@ -99,6 +99,10 @@
   margin: auto;
 }
 
+.bloc_page {
+  font-family: "Raleway", sans-serif;
+}
+
 .pied-page {
   font-family: "Raleway", sans-serif;
   color: #fdcb46;
@@ -164,6 +168,23 @@
   text-align: center;
 }
 
+.container__restaurant--1 {
+  font-family: "Devonshire", cursive;
+  font-size: 20px;
+}
+.container__restaurant--2 {
+  font-family: "Croissant One", cursive;
+  font-size: 12px;
+}
+.container__restaurant--3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+}
+.container__restaurant--4 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 15px;
+}
+
 .button {
   display: flex;
   align-items: center;
@@ -204,6 +225,22 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+.container__menu {
+  overflow: hidden;
+  position: relative;
+}
+.container__menu * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container__menu p {
+  max-width: 100%;
+  transition: all 0.8s;
+}
+.container__menu:hover p {
+  transform: scale(1.3);
 }
 .container__menu {
   width: 250px;
@@ -271,28 +308,66 @@
 
 .container__restaurant {
   width: 600px;
-  height: 700px;
   margin-bottom: 150px;
+  padding-top: 50px;
+}
+.container__restaurant h2,
+.container__restaurant h3,
+.container__restaurant h4 {
+  text-align: center;
+}
+.container__restaurant h3 {
+  margin-bottom: 40px;
+}
+.container__restaurant h2 {
+  font-size: 3rem;
+}
+.container__restaurant h3 img {
+  width: 25%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.container__restaurant li {
+  list-style-type: none;
+  margin-top: 15px;
 }
 .container__restaurant li span {
-  background-color: green;
-  text-align: right;
+  float: right;
+  margin-right: 15px;
 }
 .container__restaurant--1 {
   box-shadow: 2px 2px 10px;
   background-color: #fcdfdb;
 }
+.container__restaurant--1 h2 {
+  display: flex;
+  flex-direction: column;
+}
 .container__restaurant--2 {
   box-shadow: 2px 2px 10px;
   background-color: #fff5fe;
+}
+.container__restaurant--2 h2 {
+  font-size: 1.5rem;
+  margin-bottom: 60px;
 }
 .container__restaurant--3 {
   box-shadow: 2px 2px 10px;
   background-color: #edefef;
 }
+.container__restaurant--3 h2 {
+  margin-bottom: 60px;
+}
 .container__restaurant--4 {
   box-shadow: 2px 2px 10px;
   background-color: #fdfffd;
+}
+.container__restaurant--4 h2 {
+  margin-bottom: 60px;
+}
+
+.Contenumenu {
+  margin-bottom: 60px;
 }
 
 .pied-page {

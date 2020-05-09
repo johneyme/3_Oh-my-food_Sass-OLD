@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=Dancing+Script&family=Devonshire&family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
-
+.bloc_page{
+    font-family: 'Raleway', sans-serif;
+}
 .pied-page {
     font-family: 'Raleway', sans-serif;
     color: $colour-secondary;
@@ -67,5 +69,23 @@
     font-weight: bold;
     text-align: center;
 } 
+.container__restaurant{
+    &--1{
+        font-family: 'Devonshire', cursive;
+        font-size: 20px;
 
+    }
+    &--2{font-family: 'Croissant One', cursive;
+        font-size: 12px;
 
+    }
+    &--3{
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+
+    }
+    &--4{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 15px;
+    }
+}
