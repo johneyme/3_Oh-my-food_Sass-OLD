@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Raleway:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=Dancing+Script&family=Devonshire&family=Kaushan+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=Dancing+Script&family=Devonshire&family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
-.bloc_page{
-    font-family: 'Raleway', sans-serif;
+.bloc_page {
+    font-family: "Raleway", sans-serif;
 }
 .pied-page {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     color: $colour-secondary;
     font-size: 2rem;
     font-weight: 100;
     line-height: 1.7;
 }
-.haut-page__titre a, h1{
+.haut-page__titre a,
+h1 {
     font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
@@ -20,7 +21,7 @@
 }
 
 .button {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 900;
     font-style: italic;
     font-size: 2rem;
@@ -28,70 +29,87 @@
 .pied-page {
     font-size: 1.5rem;
 }
-.container__menu{
-    &--1 p{
-        font-family: 'Devonshire', cursive;
+.container__menu {
+    &--1 p {
+        font-family: "Devonshire", cursive;
         font-size: 2rem;
-        
-        & span{
-            font-family: 'Caveat', cursive;
+
+        & span {
+            font-family: "Caveat", cursive;
             font-size: 2rem;
         }
-        
     }
-    &--2 p{
-        font-family: 'Croissant One', cursive;
+    &--2 p {
+        font-family: "Croissant One", cursive;
         font-size: 1rem;
-        & span{
-            font-family: 'Roboto Slab', serif;
+        & span {
+            font-family: "Roboto Slab", serif;
             font-size: 2rem;
         }
     }
-    &--3 p{
-            font-family: 'Dancing Script', cursive;
-            font-size: 1.5rem;
-            & span{
-                font-family: 'Caveat', cursive;
-                font-size: 2rem;
-            }
-        }
-    &--4 p{
-            font-family: 'Kaushan Script', cursive;
-            font-size: 1.5rem;
-            & span{
-                font-family: 'Caveat', cursive;
-                font-size: 2rem;
-            }
+    &--3 p {
+        font-family: "Dancing Script", cursive;
+        font-size: 1.5rem;
+        & span {
+            font-family: "Caveat", cursive;
+            font-size: 2rem;
         }
     }
-.mentions-legales h5{
+    &--4 p {
+        font-family: "Kaushan Script", cursive;
+        font-size: 1.5rem;
+        & span {
+            font-family: "Caveat", cursive;
+            font-size: 2rem;
+        }
+    }
+}
+.mentions-legales h5 {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-} 
+}
 .mentions-legales p {
     font-size: 1rem;
     text-align: justify;
-
 }
 
-.container__restaurant{
-    &--1{
-        font-family: 'Devonshire', cursive;
+.container__restaurant {
+    &--1 {
+        font-family: "Devonshire", cursive;
         font-size: 20px;
-
     }
-    &--2{font-family: 'Croissant One', cursive;
+    &--2 {
+        font-family: "Croissant One", cursive;
         font-size: 12px;
-
+        & .contenumenu {
+            &--1 {
+                color: #c67413;
+            }
+            &--2 {
+                color: #a56799;
+            }
+            &--3 {
+                color: #6e4ccc;
+            }
+        }
+        & h2 {
+            @include color-degrad2;
+        }
     }
-    &--3{
-        font-family: 'Dancing Script', cursive;
+    &--3 {
+        font-family: "Dancing Script", cursive;
         font-size: 20px;
-
+        & h2 {
+            @include color-degrad3;
+        }
+        
     }
-    &--4{
-        font-family: 'Kaushan Script', cursive;
+    &--4 {
+        font-family: "Kaushan Script", cursive;
         font-size: 15px;
+        & h2 {
+            @include color-degrad4;
+        }
     }
 }

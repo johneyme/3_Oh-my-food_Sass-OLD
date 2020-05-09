@@ -111,7 +111,8 @@
   line-height: 1.7;
 }
 
-.haut-page__titre a, h1 {
+.haut-page__titre a,
+h1 {
   font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
@@ -181,13 +182,37 @@
   font-family: "Croissant One", cursive;
   font-size: 12px;
 }
+.container__restaurant--2 .contenumenu--1 {
+  color: #c67413;
+}
+.container__restaurant--2 .contenumenu--2 {
+  color: #a56799;
+}
+.container__restaurant--2 .contenumenu--3 {
+  color: #6e4ccc;
+}
+.container__restaurant--2 h2 {
+  background: -webkit-linear-gradient(#ec8d1f, #5a01ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .container__restaurant--3 {
   font-family: "Dancing Script", cursive;
   font-size: 20px;
 }
+.container__restaurant--3 h2 {
+  background: -webkit-linear-gradient(#0004ff, #297cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .container__restaurant--4 {
   font-family: "Kaushan Script", cursive;
   font-size: 15px;
+}
+.container__restaurant--4 h2 {
+  background: -webkit-linear-gradient(#46dd00, #96dfac);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .button {
@@ -371,7 +396,7 @@
   margin-bottom: 60px;
 }
 
-.Contenumenu {
+.contenumenu {
   margin-bottom: 60px;
 }
 
