@@ -64,11 +64,17 @@
             }
         }
     }
-.mention{
+.mentions-legales h5{
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
 } 
+.mentions-legales p {
+    font-size: 1rem;
+    text-align: justify;
+
+}
+
 .container__restaurant{
     &--1{
         font-family: 'Devonshire', cursive;
