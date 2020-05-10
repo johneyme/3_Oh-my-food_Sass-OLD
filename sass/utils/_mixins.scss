@@ -37,39 +37,45 @@
 }
 
 @mixin color-degrad2 {
-    background: -webkit-linear-gradient(rgb(236, 141, 31), rgb(90, 1, 255));
+    background: #ff9900;
+    background: -moz-linear-gradient(left, rgb(236, 141, 31), rgb(90, 1, 255));
+    background: -webkit-linear-gradient(left, rgb(236, 141, 31), rgb(90, 1, 255));
+    background: linear-gradient(to right,  rgb(236, 141, 31), rgb(90, 1, 255));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9900', endColorstr='#7d5ea3',GradientType=1 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 @mixin color-degrad3 {
-    background: -webkit-linear-gradient(rgb(0, 4, 255), rgb(41, 124, 248));
+    background: #00b7ea;
+    background: -moz-linear-gradient(left, rgb(0, 4, 255), rgb(41, 124, 248));
+    background: -webkit-linear-gradient(left, rgb(0, 4, 255), rgb(41, 124, 248));
+    background: linear-gradient(to right,  rgb(0, 4, 255), rgb(41, 124, 248));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9900', endColorstr='#7d5ea3',GradientType=1 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 @mixin color-degrad4 {
-    background: -webkit-linear-gradient(rgb(70, 221, 0), rgb(150, 223, 172));
+    background: #1eb500;
+    background: -moz-linear-gradient(left, rgb(70, 221, 0), rgb(150, 223, 172));
+    background: -webkit-linear-gradient(left, rgb(70, 221, 0), rgb(150, 223, 172));
+    background: linear-gradient(to right,  rgb(70, 221, 0), rgb(150, 223, 172));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9900', endColorstr='#7d5ea3',GradientType=1 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.container{
-
-
-
-  h3::after {
-    content: '';
-    transform-origin: 0 0; 
-    transform: scaleX(0);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: .4em; 
-    background: #78ab4e;
-    z-index: -1;
-    opacity: 0.8;
-    transition: transform .3s;
-  }
-  h3:hover::after {
-    transform: scaleX(1);
-  }
+@mixin souslign{
+    display:inline-block;
+    &:hover:after{
+        width:100%;
+    }
+    &:after{
+        content:"";
+        display:block;
+        height:3px;
+        width:0%;
+        margin-bottom:0;
+        background-color:grey;
+        transition:width;
+        transition-duration: 1s;
+    }
 }
