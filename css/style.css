@@ -99,6 +99,22 @@
   margin: auto;
 }
 
+@media all and (min-width: 769px) and (max-width: 1024px) {
+  .bloc_page {
+    width: 100%;
+  }
+
+  .container__restaurant {
+    width: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .bloc_page {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+}
 .bloc_page {
   font-family: "Raleway", sans-serif;
 }
@@ -446,11 +462,11 @@ h3 span:after {
 }
 
 .pied-page {
+  width: 700px;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  width: 700px;
   margin: auto;
   background-color: #579c87;
   display: flex;

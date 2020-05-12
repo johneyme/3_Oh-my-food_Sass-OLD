@@ -1,4 +1,22 @@
-.bloc_page{
+.bloc_page {
     width: $global-size;
     margin: auto;
+}
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    .bloc_page {
+        width: 100%;
+    }
+    
+    .container__restaurant {
+        width: auto;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .bloc_page {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    
 }
