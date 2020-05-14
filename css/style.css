@@ -95,24 +95,36 @@
   }
 }
 .bloc_page {
-  width: 700px;
+  width: auto;
   margin: auto;
 }
 
-@media all and (min-width: 769px) and (max-width: 1024px) {
+@media all and (min-width: 570px) and (max-width: 1024px) {
   .bloc_page {
     width: 100%;
+  }
+
+  .container {
+    width: auto;
   }
 
   .container__restaurant {
     width: auto;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 569px) {
   .bloc_page {
     display: flex;
     flex-direction: column;
     width: auto;
+  }
+
+  .container__restaurant h3 img {
+    display: none;
+  }
+
+  .mentions-legales {
+    margin-bottom: 100px;
   }
 }
 .bloc_page {
@@ -251,6 +263,7 @@ h1 {
   margin-bottom: 100px;
 }
 .button .button__prochainement {
+  padding: 15px;
   width: 300px;
   line-height: 50px;
   text-align: center;
@@ -462,7 +475,7 @@ h3 span:after {
 }
 
 .pied-page {
-  width: 700px;
+  width: auto;
   position: fixed;
   bottom: 0;
   left: 0;
