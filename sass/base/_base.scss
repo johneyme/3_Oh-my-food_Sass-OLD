@@ -12,6 +12,9 @@
     .container__restaurant {
         width: auto;
     }
+    .titrecarte{
+        display: none;
+    }
     
 }
 @media screen and (max-width: 569px) {
@@ -24,9 +27,19 @@
         & h3 img{
             display: none;
         }
+        & li span{
+            text-align: right;
+        }
     }
     .mentions-legales{
         margin-bottom: 100px;
+    }
+    
+}
+@media screen and (min-width: 1025px) {
+    .container{
+        width: 700px;
+        margin: auto;
     }
     
 }

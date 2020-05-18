@@ -111,6 +111,10 @@
   .container__restaurant {
     width: auto;
   }
+
+  .titrecarte {
+    display: none;
+  }
 }
 @media screen and (max-width: 569px) {
   .bloc_page {
@@ -122,9 +126,18 @@
   .container__restaurant h3 img {
     display: none;
   }
+  .container__restaurant li span {
+    text-align: right;
+  }
 
   .mentions-legales {
     margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .container {
+    width: 700px;
+    margin: auto;
   }
 }
 .bloc_page {
@@ -223,10 +236,12 @@ h1 {
   background: #ff9900;
   background: -moz-linear-gradient(left, #ec8d1f, #5a01ff);
   background: -webkit-linear-gradient(left, #ec8d1f, #5a01ff);
+  background: -ms-linear-gradient(left, #ec8d1f, #5a01ff);
   background: linear-gradient(to right, #ec8d1f, #5a01ff);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ff9900", endColorstr="#7d5ea3",GradientType=1 );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  zoom: 1;
 }
 .container__restaurant--3 {
   font-family: "Dancing Script", cursive;
@@ -345,10 +360,12 @@ h1 {
   background: #ff9900;
   background: -moz-linear-gradient(left, #ec8d1f, #5a01ff);
   background: -webkit-linear-gradient(left, #ec8d1f, #5a01ff);
+  background: -ms-linear-gradient(left, #ec8d1f, #5a01ff);
   background: linear-gradient(to right, #ec8d1f, #5a01ff);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ff9900", endColorstr="#7d5ea3",GradientType=1 );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  zoom: 1;
 }
 .container__menu--3 {
   background-color: #f9f9f9;

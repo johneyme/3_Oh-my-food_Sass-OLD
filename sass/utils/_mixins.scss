@@ -41,10 +41,12 @@
     background: #ff9900;
     background: -moz-linear-gradient(left, rgb(236, 141, 31), rgb(90, 1, 255));
     background: -webkit-linear-gradient(left, rgb(236, 141, 31), rgb(90, 1, 255));
+    background: -ms-linear-gradient(left, rgb(236, 141, 31), rgb(90, 1, 255));
     background: linear-gradient(to right,  rgb(236, 141, 31), rgb(90, 1, 255));
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9900', endColorstr='#7d5ea3',GradientType=1 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    zoom: 1;
 }
 @mixin color-degrad3 {
     background: #00b7ea;
